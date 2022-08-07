@@ -65,7 +65,7 @@ function setup()
   if(paramovil){
     canvasan = displayWidth;
     canvasal = displayHeight;
-    createCanvas(displayWidth+80,displayHeigh);
+    createCanvas(displayWidth+80,displayHeight);
   }
   else{
     canvasal = windowHeight;
@@ -137,7 +137,7 @@ function setup()
 function draw() 
 {
   background(51);
-  image(bg_img,0,0,displayWidth+80,displayHeigh);
+  image(bg_img,0,0,displayWidth+80,displayHeight);
 
   push();
   imageMode(CENTER);
